@@ -4151,7 +4151,7 @@ pre.command-output {
 }
 
 [data-page^="admin-services-openclash"] #tab-content .dom {
-  padding: 0 1rem 1rem 1rem
+  /* padding: 0 1rem 1rem 1rem */
 }
 
 [data-page^="admin-services-openclash"] .cbi-input-file {
@@ -5185,7 +5185,7 @@ div#add_link_div {
   border: 0;
   border-radius: 6px;
   padding: 16px;
-  padding-top: 56px;
+  padding-top: 16px;
   box-sizing: border-box;
 }
 

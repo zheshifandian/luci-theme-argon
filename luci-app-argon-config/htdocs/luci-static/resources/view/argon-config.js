@@ -85,7 +85,7 @@ return view.extend({
 		o = s.option(form.ListValue, 'font_weight', _('Font'));
 		o.value('normal', _('Normal'));
 		o.value('600', _('Bold'));
-		o.default = '600';
+		o.default = 'normal';
 		o.rmempty = false;
 
 		o = s.option(form.Value, 'primary', _('[Light mode] Primary Color'), _('A HEX color (default: #5e72e4).'))
